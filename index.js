@@ -38,7 +38,7 @@ for(let i=0;i<meals;i++){
 
 //console.log("$")
 // c. Modify your code to check each meal for kale.  If present, after the meal output add, “Don’t worry, you can have double chocolate tomorrow.”
-if(arr[i]==='KALE'|| arr[i]==='MORE KALE'){
+if(arr.includes('KALE','MORE  KALE')){
   console.log("_________________________")
   console.log("Don’t worry, you can have double chocolate tomorrow.")
  console.log("_________________________")
